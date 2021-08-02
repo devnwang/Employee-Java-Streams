@@ -13,4 +13,5 @@ Given a list of employees containing their id, name, salary, and department, com
 * Get the average salary of the employees in the Developer department
 
 **Assumption**
-Employees of the Developer department are made up of employees from the Front End and Back End Development departments. (i.e. The Front End and Back End Development departments are sub-departments of the Developer department.
+---
+Employees of the Developer department are made up of employees from the Front End and Back End Development departments. (i.e. The Front End and Back End Development departments are sub-departments of the Developer department.)
