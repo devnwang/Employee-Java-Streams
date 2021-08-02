@@ -16,4 +16,8 @@ public class DataEntryException extends Exception {
 				expectedFieldCnt + ", Received: " + receivedFieldCnt + ")");
 	}
 	
+	// Unable to parse data
+	public DataEntryException(NumberFormatException e) {
+		super("Data Entry Error! A data entry has an incorrect type for one of its fields.");
+	}
 }
