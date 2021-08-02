@@ -56,5 +56,13 @@ public class Employee {
 	public void setDept(String dept) {
 		this.dept = dept;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [ID=" + id + ", First Name=" + fName + ", Last Name=" + lName + ", Salary=" + salary + ", Department=" + dept
+				+ "]";
+	}
+	
+	
 	
 }
