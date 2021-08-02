@@ -20,4 +20,9 @@ public class DataEntryException extends Exception {
 	public DataEntryException(NumberFormatException e) {
 		super("Data Entry Error! A data entry has an incorrect type for one of its fields.");
 	}
+	
+	// Input is not within the bounds of the options
+	public DataEntryException(int start, int end) {
+		super("Option Index Out of Bounds! Your input must be within the range of " + start + " to " + end + ".");
+	}
 }
